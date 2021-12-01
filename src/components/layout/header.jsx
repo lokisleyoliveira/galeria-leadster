@@ -3,7 +3,7 @@ import { Navbar } from 'react-bootstrap'
 function Header() {
     return (
         <header>
-            <Navbar className="justify-content-center" bg="light">
+            <Navbar sticky="top" className="justify-content-center">
                 <h1> Galeria - Leadster </h1>
             </Navbar>
         </header>

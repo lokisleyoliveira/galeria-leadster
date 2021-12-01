@@ -1,9 +1,9 @@
-import react from 'react'
+import '../../style.scss'
 
 function Footer() {
     return (
         <footer>
-            <a> images by pexels.com</a>
+            <a href="https://www.pexels.com">images by pexels.com</a>
         </footer>
     )
 }
