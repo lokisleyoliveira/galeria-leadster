@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <Navbar sticky="top" className="justify-content-center">
-                <h1> Galeria - Leadster </h1>
+                <h1> LeadPexels </h1>
             </Navbar>
         </header>
     )
