@@ -31,6 +31,21 @@ header {
   background: linear-gradient(to bottom right, $blue2, $blue1);
   color: white;
   align-items: center;
+.imgRow {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  .imgColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33.33%
+  }
+}
+
+button {
+  margin: 20px;
 }
 
 footer {
